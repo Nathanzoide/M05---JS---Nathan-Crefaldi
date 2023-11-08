@@ -1,0 +1,91 @@
+QUESTÃO ****1****
+
+1 - O que é NVM?
+
+R:O NVM é um gerenciador de versões Node.js
+
+
+
+2 - O que é NPM e para que o utilizamos?
+
+R:O NPM é um Node Package Manager, o utilizamos para instalação de bibliotecas
+
+
+
+3 - O que o comando "npm install prompt-sync" realiza?
+
+R: O comando "npm install prompt-sync" é um modulo, que quando instalado permite 
+a utilização de comandos de entrada no programa.
+
+
+
+4 - Em qual diretório devemos instalar uma biblioteca javascript?
+
+R: Normalmente devemos instalar as bibliotecar no diretorio do projeto que estamos desenvolvendo.
+
+
+
+5 - Existe diferença entre o código que cria e o que faz uso de uma variável em python? Se sim explique essa diferença
+
+R: Em python, o codigo que cria e modifica a variavel são iguais, basta utilizar o operador de atribuição(=).
+Apos criar a variavel sua utilização pode ser feita com expressões, condições, loops etc.
+ 
+
+
+
+6 - Existe diferença entre o código que cria e o que faz uso de uma variável em javascript? Se sim explique essa diferença.
+
+R: Em Javascript não existe uma distinção no codigo que cria e no codigo que utiliza a variavel,
+para atribuir valor a uma variavel deve-se usar um dos seguintes comandos:
+- const
+- var
+- let
+Logo apos utilizar um dos comandos acima, deve se usar o operador de atribuição, para modificala não é necessario utlizar esses comandos,
+basta digitar a variavel e o operador de atribuição, exceto "const" pois é uma constante e não é possivel modificar seu valor.
+
+
+
+QUESTÃO ****2****
+
+
+ Explique as diferenças e especificidades de variáveis criadas com os comandos:
+- const
+- var
+- let
+
+R: Em Javascript, a variavel "const" é imutavel, ou seja uma vez atribuido seu valor não é possivel altera-lo.
+A variavel "var" por sua vez pode ser alterada a qualquer momento, e ate sobrescrita no mesmo local.
+Ja a variavel "let" pode ser alterada porem não sobrescrita no mesmo local.
+
+
+
+QUESTÃO ****3****
+Diga o que será impresso na tela após executar cada um dos códigos abaixo:
+
+*CODIGO1
+R: O cogigo imprimira o numero 6 duas vezes.
+
+*CODIGO2
+R: O codigo imprimira o numero 6 e logo após o numero 5.
+
+
+
+QUESTÃO ****4****
+É possível editar o valor de uma variável (const), de uma lista (const) ou de um objeto (const)?
+
+R: Em Javascript, a variavel "const" é utilizada para criar uma associação imutavel a um objeto, porem
+isso não significa que o valor em si é imutavel.
+
+const list = [1, 2, 3];
+list = [4, 5, 6]; - Esse codigo geraria um erro, pois esta atribuindo nova referencia a uma variavel.
+
+const pessoa = {nome: 'João', idade: 18};
+pessoa.nome = 'Maria';
+pessoa.idade = 20; - Esse codigo funcionaria normalmente
+
+const PI = 3.1415;
+PI = 3.14; - Esse codigo geraria um erro, pois é a tentativa de reatribuir valor a um valor primitivo,
+que est presente dentro do Javascript.
+
+
+
